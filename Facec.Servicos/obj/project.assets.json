@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Facec.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Facec.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Facec.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Facec.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Facec.Dominio/Facec.Dominio.csproj",
+      "msbuildProject": "../Facec.Dominio/Facec.Dominio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Facec.Dominio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\facec.lab01\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
+      "projectName": "Facec.Servicos",
+      "projectPath": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
+      "packagesPath": "C:\\Users\\facec.lab01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\facec.lab01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+              "projectPath": "C:\\Users\\facec.lab01\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

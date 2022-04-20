@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Facec.Dominio/1.0.0": {
+        "runtime": {
+          "Facec.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Facec.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
